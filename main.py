@@ -1,6 +1,9 @@
 import streamlit as st
 from rag import generate_answer, process_urls
 import html  # to escape text content safely
+import sys
+import pysqlite3
+sys.modules["sqlite3"] = pysqlite3
 
 # Page configuration
 st.set_page_config(page_title="WebGenie 🔗", page_icon="🧞", layout="centered")
