@@ -10,6 +10,9 @@ from langchain_huggingface.embeddings import HuggingFaceEmbeddings   #way to con
 from huggingface_hub import login
 import os
 import streamlit as st
+import sys
+import pysqlite3
+sys.modules["sqlite3"] = pysqlite3
 
 load_dotenv()
 
