@@ -1,0 +1,5 @@
+bot/
+MyBot/
+.env
+resources/
+__pycache__/
