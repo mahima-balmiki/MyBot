@@ -1,0 +1,30 @@
+# Ensure ChromaDB works with modern SQLite
+pysqlite3-binary>=0.5.0
+
+# Core AI & RAG components
+chromadb==0.6.3
+chroma-hnswlib==0.7.6
+
+langchain==0.3.20
+langchain-core==0.3.41
+langchain-chroma==0.2.2
+langchain-community==0.3.19
+langchain-groq==0.2.4
+langchain-huggingface==0.1.2
+langchain-text-splitters==0.3.6
+
+# Embeddings
+huggingface-hub==0.29.2
+huggingface==0.0.1
+
+# Streamlit UI
+streamlit==1.43.0
+
+# Other dependencies
+python-dotenv==1.0.1
+unstructured==0.16.23
+unstructured-client==0.31.0
+python-dateutil==2.9.0.post0
+python-iso639==2025.2.18
+python-magic==0.4.27
+python-oxmsg==0.0.2
